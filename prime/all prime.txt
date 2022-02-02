@@ -1,0 +1,22 @@
+vector<int> solution(1000005, true);
+vector<int> ans(1000005, 0);
+
+void precal()
+{
+    solution[0] = false;
+    solution[1] = false;
+
+    for (int i = 2; i * i < 1000005; i++)
+    {
+        if (solution[i])
+        {
+            for (int j = i * i; j < 1000005; j += i)
+            {
+
+                // cout<<solution[j];
+                solution[j] = false;
+            }
+        }
+    }
+   
+}
