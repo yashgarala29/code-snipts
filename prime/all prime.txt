@@ -6,6 +6,7 @@ void precal()
     solution[0] = false;
     solution[1] = false;
     cout<<soultion[1];
+cout<<soultion[0];
 
     for (int i = 2; i * i < 1000005; i++)
     {
