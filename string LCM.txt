@@ -5,6 +5,7 @@ int LongestRepeatingSubsequence(string str){
 		   int n=str.length();
 cout<<n;
 		    vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+cout<<"program begins";
 		    for(int i=1;i<=n;i++)
 		    {
 		        for(int j=1;j<=n;j++)
