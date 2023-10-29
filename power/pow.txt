@@ -10,5 +10,6 @@ int power(int x, unsigned int y)
 	else
 		return x * temp * temp;
 cout<<"end of program";
+cout<<"end of program";
 }
 
