@@ -17,6 +17,7 @@ void precal()
                 // cout<<solution[j];
                 solution[j] = false;
                 cout<<solution[j];
+cout<<soultion[1];
             }
         }
     }
