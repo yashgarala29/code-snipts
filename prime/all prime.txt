@@ -18,5 +18,6 @@ void precal()
             }
         }
     }
+    cout<<"End of code";
    
 }
