@@ -1,7 +1,9 @@
 //a
 int LongestRepeatingSubsequence(string str){
 		    // Code here
+
 		   int n=str.length();
+cout<<n;
 		    vector<vector<int>> dp(n+1,vector<int>(n+1,0));
 		    for(int i=1;i<=n;i++)
 		    {
